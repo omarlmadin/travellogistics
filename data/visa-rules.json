@@ -1,6 +1,13 @@
 [
   {
     "originCode": "US",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK Electronic Travel Authorisation (ETA) must be obtained online prior to departure for stays up to 180 days."
+  },
+  {
+    "originCode": "US",
     "destinationCode": "JP",
     "category": "visa_free",
     "maxStayDays": 90,
@@ -8,38 +15,66 @@
   },
   {
     "originCode": "US",
-    "destinationCode": "GB",
-    "category": "eta_required",
-    "maxStayDays": 180,
-    "notes": "UK Electronic Travel Authorisation (ETA) must be obtained online prior to departure."
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Ordinary US passport holders are visa-exempt for up to 90 days in any 180-day period across the Schengen area (ETIAS travel authorization applies when active)."
   },
   {
     "originCode": "US",
     "destinationCode": "FR",
-    "category": "eta_required",
+    "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Schengen area rules: ETIAS travel authorization required for stays up to 90 days in any 180-day window."
-  },
-  {
-    "originCode": "US",
-    "destinationCode": "DE",
-    "category": "eta_required",
-    "maxStayDays": 90,
-    "notes": "Schengen ETIAS authorization required for short stays up to 90 days."
+    "notes": "Ordinary US passport holders are visa-exempt for up to 90 days in any 180-day period across the Schengen area (ETIAS travel authorization applies when active)."
   },
   {
     "originCode": "US",
     "destinationCode": "IT",
-    "category": "eta_required",
+    "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Schengen ETIAS authorization required for short stays up to 90 days."
+    "notes": "Ordinary US passport holders are visa-exempt for up to 90 days in any 180-day period across the Schengen area (ETIAS travel authorization applies when active)."
   },
   {
     "originCode": "US",
     "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Ordinary US passport holders are visa-exempt for up to 90 days in any 180-day period across the Schengen area (ETIAS travel authorization applies when active)."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "CA",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "US citizens enter Canada visa-free for up to 180 days with a valid US passport (no eTA or visa required)."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "AU",
     "category": "eta_required",
     "maxStayDays": 90,
-    "notes": "Schengen ETIAS authorization required for short stays up to 90 days."
+    "notes": "Australian Electronic Travel Authority (ETA subclass 601) required via official Australian ETA app."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "AE",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "Free 30-day visa on arrival stamped at airport immigration, extendable for an additional 30 days."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa required online before travel. Valid for 1 year with multiple entries up to 90 days."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival (VoA) at Cairo/Hurghada airports for $25 USD."
   },
   {
     "originCode": "US",
@@ -50,52 +85,59 @@
   },
   {
     "originCode": "US",
-    "destinationCode": "AE",
-    "category": "visa_on_arrival",
-    "maxStayDays": 30,
-    "notes": "Free 30-day visa on arrival stamped at airport immigration."
-  },
-  {
-    "originCode": "US",
-    "destinationCode": "SA",
-    "category": "e_visa",
+    "destinationCode": "SG",
+    "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Saudi tourist e-Visa required online before travel. Valid for 1 year with multiple entries."
+    "notes": "US passport holders enter Singapore visa-free for tourism and business stays up to 90 days."
   },
   {
     "originCode": "US",
-    "destinationCode": "EG",
-    "category": "e_visa",
-    "maxStayDays": 30,
-    "notes": "e-Visa online or Visa on Arrival at Cairo international airport for $25 USD."
-  },
-  {
-    "originCode": "US",
-    "destinationCode": "AU",
-    "category": "eta_required",
+    "destinationCode": "CH",
+    "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Australian ETA (subclass 601) required via official Australian ETA app."
+    "notes": "Ordinary US passport holders are visa-exempt for up to 90 days in any 180-day period across the Schengen area (ETIAS travel authorization applies when active)."
   },
   {
     "originCode": "US",
-    "destinationCode": "ID",
-    "category": "visa_on_arrival",
-    "maxStayDays": 30,
-    "notes": "e-VOA (Electronic Visa on Arrival) can be purchased online or upon arrival at Denpasar/Jakarta."
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Ordinary US passport holders are exempt from visa requirements for tourism stays up to 90 days in any 180-day period."
   },
   {
     "originCode": "US",
     "destinationCode": "BR",
     "category": "e_visa",
     "maxStayDays": 90,
-    "notes": "Brazil eVisa required for US citizens before boarding."
+    "notes": "Brazil tourist eVisa required online for US passport holders before boarding."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "US passport holders are visa-exempt for stays up to 90 days (K-ETA requirement waived for US citizens)."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA (Electronic Visa on Arrival) can be purchased online or on arrival at Bali/Jakarta for 30 days."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "US citizens enter Mexico visa-free for tourism up to 180 days with an FMM tourist card."
   },
   {
     "originCode": "GB",
     "destinationCode": "US",
     "category": "eta_required",
     "maxStayDays": 90,
-    "notes": "ESTA (Electronic System for Travel Authorization) mandatory prior to boarding flight."
+    "notes": "ESTA (Electronic System for Travel Authorization) mandatory prior to boarding flight under the Visa Waiver Program."
   },
   {
     "originCode": "GB",
@@ -106,169 +148,1371 @@
   },
   {
     "originCode": "GB",
-    "destinationCode": "TH",
+    "destinationCode": "DE",
     "category": "visa_free",
-    "maxStayDays": 60,
-    "notes": "60-day visa exemption scheme applied upon entry."
-  },
-  {
-    "originCode": "GB",
-    "destinationCode": "AE",
-    "category": "visa_on_arrival",
-    "maxStayDays": 30,
-    "notes": "30-day visa on arrival granted free of charge."
+    "maxStayDays": 90,
+    "notes": "Post-Brexit Schengen 90/180-day visa-free rule applies for UK passport holders (ETIAS authorization applies when active)."
   },
   {
     "originCode": "GB",
     "destinationCode": "FR",
     "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Schengen 90/180-day rule applies for UK passport holders post-Brexit."
+    "notes": "Post-Brexit Schengen 90/180-day visa-free rule applies for UK passport holders (ETIAS authorization applies when active)."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Post-Brexit Schengen 90/180-day visa-free rule applies for UK passport holders (ETIAS authorization applies when active)."
   },
   {
     "originCode": "GB",
     "destinationCode": "ES",
     "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Schengen 90/180-day rule applies for UK passport holders post-Brexit."
+    "notes": "Post-Brexit Schengen 90/180-day visa-free rule applies for UK passport holders (ETIAS authorization applies when active)."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada Electronic Travel Authorization (eTA) required online before boarding flight."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian eVisitor (subclass 651) / ETA required online before departure (free of visa charge)."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "AE",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "30-day visa on arrival granted free of charge at UAE border control."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa or Electronic Visa Waiver (EVW) easily obtainable online before departure."
   },
   {
     "originCode": "GB",
     "destinationCode": "EG",
     "category": "e_visa",
     "maxStayDays": 30,
-    "notes": "e-Visa available online or Visa on Arrival for $25 USD."
+    "notes": "e-Visa online or Visa on Arrival at Cairo/Hurghada airports for $25 USD."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme applied upon entry for tourism."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "British passport holders enter Singapore visa-free for up to 90 days."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Post-Brexit Schengen 90/180-day visa-free rule applies for UK passport holders (ETIAS authorization applies when active)."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "British passport holders enter Turkey visa-free for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "UK citizens enter Brazil visa-free for tourism up to 90 days."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "British citizens enter South Korea visa-free for up to 90 days (K-ETA exemption active)."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival at Bali/Jakarta for 30 days."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "British passport holders enter Mexico visa-free for tourism up to 180 days."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under US Visa Waiver Program."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA required online for Japanese citizens."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada eTA required online before boarding."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian ETA (subclass 601) required via ETA app."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "AE",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "30-day visa on arrival stamped free of charge."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online before departure."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival for $25 USD."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme on arrival."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Japan and Brazil maintain mutual visa-free agreement for up to 90 days."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival for 30 days."
+  },
+  {
+    "originCode": "JP",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for up to 180 days for tourism."
   },
   {
     "originCode": "DE",
     "destinationCode": "US",
     "category": "eta_required",
     "maxStayDays": 90,
-    "notes": "ESTA authorization required under the US Visa Waiver Program."
+    "notes": "ESTA authorization required under the US Visa Waiver Program (VWP) prior to travel."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK Electronic Travel Authorisation (ETA) required online for European citizens visiting for up to 6 months."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days for tourism and short business visits."
   },
   {
     "originCode": "DE",
     "destinationCode": "FR",
     "category": "visa_free",
-    "notes": "EU Freedom of movement. National ID card or passport sufficient."
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada Electronic Travel Authorization (eTA) required online before boarding flight."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian eVisitor (subclass 651) required online before departure (free of charge)."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU/Schengen-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online instantly prior to travel."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival at Egyptian airports for $25 USD."
   },
   {
     "originCode": "DE",
     "destinationCode": "TH",
     "category": "visa_free",
     "maxStayDays": 60,
-    "notes": "German passport holders receive 60-day visa exemption on arrival."
+    "notes": "60-day visa exemption scheme granted upon arrival for tourism."
   },
   {
     "originCode": "DE",
-    "destinationCode": "JP",
+    "destinationCode": "SG",
     "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Visa-free entry for up to 90 days for tourism and short visits."
+    "notes": "Visa-free entry for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period. National ID cards accepted."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism up to 90 days."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA exemption active)."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival at Bali/Jakarta for 30 days."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for tourism up to 180 days with valid passport."
   },
   {
     "originCode": "FR",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under the US Visa Waiver Program (VWP) prior to travel."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK Electronic Travel Authorisation (ETA) required online for European citizens visiting for up to 6 months."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days for tourism and short business visits."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada Electronic Travel Authorization (eTA) required online before boarding flight."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian eVisitor (subclass 651) required online before departure (free of charge)."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU/Schengen-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online instantly prior to travel."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival at Egyptian airports for $25 USD."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme granted upon arrival for tourism."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period. National ID cards accepted."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism up to 90 days."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA exemption active)."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival at Bali/Jakarta for 30 days."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for tourism up to 180 days with valid passport."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under the US Visa Waiver Program (VWP) prior to travel."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK Electronic Travel Authorisation (ETA) required online for European citizens visiting for up to 6 months."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days for tourism and short business visits."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada Electronic Travel Authorization (eTA) required online before boarding flight."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian eVisitor (subclass 651) required online before departure (free of charge)."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU/Schengen-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online instantly prior to travel."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival at Egyptian airports for $25 USD."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme granted upon arrival for tourism."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period. National ID cards accepted."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism up to 90 days."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA exemption active)."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival at Bali/Jakarta for 30 days."
+  },
+  {
+    "originCode": "IT",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for tourism up to 180 days with valid passport."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under the US Visa Waiver Program (VWP) prior to travel."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK Electronic Travel Authorisation (ETA) required online for European citizens visiting for up to 6 months."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days for tourism and short business visits."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada Electronic Travel Authorization (eTA) required online before boarding flight."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian eVisitor (subclass 651) required online before departure (free of charge)."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU/Schengen-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online instantly prior to travel."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival at Egyptian airports for $25 USD."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme granted upon arrival for tourism."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period. National ID cards accepted."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism up to 90 days."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA exemption active)."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival at Bali/Jakarta for 30 days."
+  },
+  {
+    "originCode": "ES",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for tourism up to 180 days with valid passport."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "US",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Canadian citizens enter the US visa-free with valid Canadian passport (no ESTA required)."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA required online for Canadian citizens prior to travel."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian ETA (subclass 601) required via official Australian ETA app."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "AE",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "30-day visa on arrival stamped free of charge at UAE airports."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online prior to travel."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "EG",
+    "category": "visa_required",
+    "maxStayDays": 30,
+    "notes": "Canadian passport holders must obtain a visa from the Egyptian Embassy/Consulate in advance."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme on arrival."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Canadian citizens enter Turkey visa-free for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "BR",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Brazil eVisa required online for Canadian passport holders before travel."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA exemption active)."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival for 30 days."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Canadian passport holders enter Mexico visa-free for tourism up to 180 days."
+  },
+  {
+    "originCode": "AU",
     "destinationCode": "US",
     "category": "eta_required",
     "maxStayDays": 90,
     "notes": "ESTA authorization required under the US Visa Waiver Program."
   },
   {
-    "originCode": "FR",
-    "destinationCode": "JP",
-    "category": "visa_free",
-    "maxStayDays": 90,
-    "notes": "Visa-free entry up to 90 days."
-  },
-  {
-    "originCode": "FR",
-    "destinationCode": "GB",
-    "category": "eta_required",
-    "maxStayDays": 180,
-    "notes": "UK ETA authorization required for EU citizens."
-  },
-  {
-    "originCode": "CA",
-    "destinationCode": "US",
-    "category": "visa_free",
-    "maxStayDays": 180,
-    "notes": "Canadian citizens enter the US visa-free with valid Canadian passport."
-  },
-  {
-    "originCode": "CA",
-    "destinationCode": "JP",
-    "category": "visa_free",
-    "maxStayDays": 90,
-    "notes": "Visa-free for up to 90 days."
-  },
-  {
-    "originCode": "CA",
-    "destinationCode": "GB",
-    "category": "eta_required",
-    "maxStayDays": 180,
-    "notes": "UK ETA required prior to travel."
-  },
-  {
     "originCode": "AU",
-    "destinationCode": "US",
+    "destinationCode": "GB",
     "category": "eta_required",
-    "maxStayDays": 90,
-    "notes": "ESTA authorization required under the Visa Waiver Program."
+    "maxStayDays": 180,
+    "notes": "UK ETA required online for Australian citizens for visits up to 6 months."
   },
   {
     "originCode": "AU",
     "destinationCode": "JP",
     "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Visa-free for tourism up to 90 days."
+    "notes": "Visa-free for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada eTA required online before boarding flight."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "AE",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "30-day visa on arrival stamped free of charge."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online before travel."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival at Cairo airport for $25 USD."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme on arrival."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Australian passport holders enter Turkey visa-free for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "BR",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Brazil eVisa required online for Australian passport holders."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days (K-ETA exemption active)."
   },
   {
     "originCode": "AU",
     "destinationCode": "ID",
     "category": "visa_on_arrival",
     "maxStayDays": 30,
-    "notes": "e-VOA available online or on arrival at Bali / Jakarta airports."
+    "notes": "e-VOA available online or on arrival at Bali/Jakarta for 30 days."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for up to 180 days for tourism."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "US",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "B1/B2 Visitor visa required through US Embassy/Consulate."
   },
   {
     "originCode": "AE",
     "destinationCode": "GB",
     "category": "eta_required",
     "maxStayDays": 180,
-    "notes": "UK Electronic Travel Authorisation (ETA) valid for multiple entries."
+    "notes": "UK ETA required online for UAE nationals (fast, multiple-entry for 2 years)."
   },
   {
     "originCode": "AE",
-    "destinationCode": "TH",
+    "destinationCode": "JP",
     "category": "visa_free",
     "maxStayDays": 30,
-    "notes": "UAE passport holders receive 30-day visa-free entry."
+    "notes": "Visa-exempt for tourism up to 30 days for UAE citizens."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
   },
   {
     "originCode": "AE",
     "destinationCode": "FR",
     "category": "visa_free",
     "maxStayDays": 90,
-    "notes": "Schengen visa waiver agreement in effect for UAE citizens."
+    "notes": "EU-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "CA",
+    "category": "e_visa",
+    "maxStayDays": 180,
+    "notes": "Canada visitor visa or eTA (if eligible) required before travel."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "AU",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Australian Visitor visa (subclass 600) online application required."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "SA",
+    "category": "visa_free",
+    "notes": "GCC freedom of movement. National ID card or passport sufficient for entry without visa requirements."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "EG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "UAE passport holders enter Egypt visa-free for up to 90 days."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "UAE passport holders receive 60-day visa-free entry for tourism."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Visa-free entry for up to 30 days."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Mutual visa waiver: visa-free entry for up to 90 days."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Bilateral agreement: visa-free for up to 90 days."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival for 30 days."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Mutual visa waiver: visa-free entry for up to 180 days."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "US",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "B1/B2 tourist visa interview required at US Embassy/Consulates in KSA."
   },
   {
     "originCode": "SA",
     "destinationCode": "GB",
     "category": "eta_required",
     "maxStayDays": 180,
-    "notes": "UK ETA available online quickly for Saudi nationals."
+    "notes": "UK ETA available online with instant digital approval for Saudi nationals."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "JP",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Japan tourist eVisa available online for Saudi nationals."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "DE",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required (Cascade multi-year visa policy available for Saudi nationals)."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "FR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required (Cascade multi-year visa policy available for Saudi nationals)."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "IT",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required (Cascade multi-year visa policy available for Saudi nationals)."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "ES",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required (Cascade multi-year visa policy available for Saudi nationals)."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "CA",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Canada Visitor visa required in advance."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "AU",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Visitor visa (subclass 600) online application required."
   },
   {
     "originCode": "SA",
     "destinationCode": "AE",
     "category": "visa_free",
-    "notes": "GCC citizens enter visa-free using National ID or passport."
+    "notes": "GCC freedom of movement. National ID card or passport sufficient for entry without visa requirements."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "EG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Saudi citizens enter Egypt visa-free for up to 90 days."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "Saudi passport holders receive 60-day visa exemption on arrival."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Visa-free entry for up to 30 days for tourism."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "CH",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required (Cascade multi-year visa policy available for Saudi nationals)."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Saudi citizens enter Turkey visa-free for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "BR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Tourist visa required from Brazilian Embassy in Riyadh."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Visa-free entry for up to 30 days for tourism (K-ETA required)."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival for 30 days."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "MX",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Visitor visa required (exempt if holding valid US/UK/Schengen/CA/JP visa)."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "US",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "B1/B2 Visitor visa appointment required at US Embassy in Cairo."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "GB",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "UK Standard Visitor Visa required in advance."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "JP",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Tourist visa required in advance from Embassy of Japan in Cairo."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "DE",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through TLScontact / VFS Global."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "FR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through TLScontact / VFS Global."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "IT",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through TLScontact / VFS Global."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "ES",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through TLScontact / VFS Global."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "CA",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Canada Visitor visa required in advance."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "AU",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Australian Visitor visa (subclass 600) online application required."
   },
   {
     "originCode": "EG",
     "destinationCode": "AE",
     "category": "e_visa",
     "maxStayDays": 30,
-    "notes": "Tourist visa can be arranged online via airlines or travel agencies."
+    "notes": "Tourist visa arranged online via airlines or travel agencies."
   },
   {
     "originCode": "EG",
@@ -279,8 +1523,1118 @@
   },
   {
     "originCode": "EG",
+    "destinationCode": "TH",
+    "category": "visa_on_arrival",
+    "maxStayDays": 15,
+    "notes": "Visa on Arrival (VoA) available at major Thai international airports for 15 days."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "SG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Singapore e-Visa required online via authorized agent or Singapore contact."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "CH",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through TLScontact / VFS Global."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "TR",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Egyptian citizens under 20 or over 45, or holders of valid US/UK/Schengen/Ireland visas receive e-Visa online; otherwise consular visa."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "BR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Consular tourist visa required from Brazilian Embassy in Cairo."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "KR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Visitor visa required in advance from Embassy of South Korea."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival at Indonesian airports for 30 days."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "MX",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Visitor visa required (exempt if holding valid US/UK/Schengen/CA/JP visa)."
+  },
+  {
+    "originCode": "TH",
     "destinationCode": "US",
     "category": "visa_required",
-    "notes": "B1/B2 Visitor visa appointment required at US Embassy in Cairo."
+    "maxStayDays": 180,
+    "notes": "B1/B2 tourist visa interview required at US Embassy Bangkok."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "GB",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "UK Standard Visitor Visa required in advance."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 15,
+    "notes": "Visa exemption for tourism stays up to 15 days for Thai passport holders."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "DE",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "FR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "IT",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "ES",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "CA",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Canada Visitor visa required in advance."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "AU",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Australian Visitor visa (subclass 600) online application required."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "AE",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Tourist e-Visa required online before travel."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online (or with valid US/UK/Schengen visa)."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Egypt tourist e-Visa or consular visa required."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "ASEAN member citizen: visa-free entry for up to 30 days."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "CH",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Thai passport holders enter Turkey visa-free for up to 30 days."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Bilateral agreement: 90 days visa-free entry for tourism."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA required before travel)."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "ID",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "ASEAN member citizen: 30 days visa-free entry for tourism."
+  },
+  {
+    "originCode": "TH",
+    "destinationCode": "MX",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Visitor visa required (exempt if holding valid US/UK/Schengen/CA/JP visa)."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under US Visa Waiver Program."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA required online for Singaporean citizens."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada eTA required online."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian ETA (subclass 601) required via ETA app."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Visa-free entry for up to 30 days."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa online before travel."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival for $25 USD."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "Visa-exempt for tourism up to 60 days."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Visa-free entry for up to 30 days."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days (K-ETA exemption active)."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "ID",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "ASEAN member citizen: visa-free entry for up to 30 days for tourism."
+  },
+  {
+    "originCode": "SG",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for up to 180 days."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under the US Visa Waiver Program (VWP) prior to travel."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK Electronic Travel Authorisation (ETA) required online for European citizens visiting for up to 6 months."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days for tourism and short business visits."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "notes": "EU & Schengen Freedom of Movement. National ID card or passport sufficient for unrestricted entry and stay."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada Electronic Travel Authorization (eTA) required online before boarding flight."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian eVisitor (subclass 651) required online before departure (free of charge)."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "EU/Schengen-UAE visa waiver agreement: visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online instantly prior to travel."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival at Egyptian airports for $25 USD."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme granted upon arrival for tourism."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period. National ID cards accepted."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism up to 90 days."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA exemption active)."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival at Bali/Jakarta for 30 days."
+  },
+  {
+    "originCode": "CH",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for tourism up to 180 days with valid passport."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "US",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "B1/B2 tourist visa interview required at US Embassy/Consulate."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "GB",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "UK Standard Visitor Visa required in advance."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for tourism and business up to 90 days."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "DE",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through consular visa application centers."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "FR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through consular visa application centers."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "IT",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through consular visa application centers."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "ES",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through consular visa application centers."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "CA",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Canada Visitor visa required in advance."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "AU",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Australian Visitor visa (subclass 600) online application required."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "AE",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Tourist e-Visa easily arranged online or via airlines."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online before departure."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "EG",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "Visa on Arrival granted for Turkish citizens at Egyptian airports."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme on arrival."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Visa-free entry for up to 30 days for tourism."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "CH",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required in advance through consular visa application centers."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Turkish citizens enter Brazil visa-free for up to 90 days."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA required)."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival for 30 days."
+  },
+  {
+    "originCode": "TR",
+    "destinationCode": "MX",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Electronic travel authorization (SAE) online free of charge for Turkish citizens."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "US",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "B1/B2 tourist visa required through US Embassy/Consulate."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA required online for Brazilian citizens for stays up to 6 months."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Bilateral visa waiver: Brazilian passport holders enter Japan visa-free up to 90 days."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "CA",
+    "category": "e_visa",
+    "maxStayDays": 180,
+    "notes": "Canada eTA eligible if holding valid US visa or held Canada visa in past 10 years; otherwise visitor visa required."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "AU",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Australian Visitor visa (subclass 600) online application required."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Bilateral agreement: visa-free entry for up to 90 days."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online (or with valid US/UK/Schengen visa)."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival for $25 USD."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Bilateral visa waiver: 90 days visa-free for tourism."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Visa-free entry for up to 30 days."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Brazilian passport holders enter Turkey visa-free for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA required)."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival for 30 days."
+  },
+  {
+    "originCode": "BR",
+    "destinationCode": "MX",
+    "category": "e_visa",
+    "maxStayDays": 180,
+    "notes": "Electronic authorization (SAE) or consular visa required (exempt if holding valid US/UK/Schengen/CA/JP visa)."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under US Visa Waiver Program."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA required online for South Korean citizens."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism and short visits up to 90 days."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "CA",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "Canada eTA required online before flight."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian ETA (subclass 601) required via ETA app."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Bilateral visa waiver: visa-free entry for up to 90 days."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa online before travel."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival for $25 USD."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Bilateral agreement grants South Korean passport holders 90 days visa-free."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days in any 180-day period in the Schengen area."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism up to 90 days."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival for 30 days."
+  },
+  {
+    "originCode": "KR",
+    "destinationCode": "MX",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Visa-free entry for up to 180 days."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "US",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "B1/B2 tourist visa interview required at US Embassy in Jakarta."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "GB",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "UK Standard Visitor Visa required in advance."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 15,
+    "notes": "Visa waiver for e-Passport holders registered with Japan Embassy for up to 15 days."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "DE",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required through consular visa center in advance."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "FR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required through consular visa center in advance."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "IT",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required through consular visa center in advance."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "ES",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required through consular visa center in advance."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "CA",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Canada Visitor visa required in advance."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "AU",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Australian Visitor visa (subclass 600) online application required."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "AE",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Tourist e-Visa required online before travel."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Tourist/Umrah e-Visa available online."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "EG",
+    "category": "visa_required",
+    "maxStayDays": 30,
+    "notes": "Consular visa required in advance from Egyptian Embassy in Jakarta."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "ASEAN member citizen: visa-free entry for up to 60 days."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "ASEAN member citizen: visa-free entry for up to 30 days."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "CH",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Schengen visa required through consular visa center in advance."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "TR",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Indonesian passport holders enter Turkey visa-free for up to 30 days."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "BR",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Bilateral visa waiver: up to 30 days visa-free for tourism."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "KR",
+    "category": "visa_required",
+    "maxStayDays": 90,
+    "notes": "Tourist visa required (visa-free only for direct transit/Jeju Island or group tours)."
+  },
+  {
+    "originCode": "ID",
+    "destinationCode": "MX",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "Visitor visa required (exempt if holding valid US/UK/Schengen/CA/JP visa)."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "US",
+    "category": "visa_required",
+    "maxStayDays": 180,
+    "notes": "B1/B2 Visitor visa or Border Crossing Card required from US Embassy/Consulate."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA required online for Mexican citizens for visits up to 6 months."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Mexico-Japan bilateral agreement: visa-free entry for up to 180 days."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "DE",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "IT",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "CA",
+    "category": "e_visa",
+    "maxStayDays": 180,
+    "notes": "Canada eTA eligible if holding valid US visa or held Canada visa in past 10 years; otherwise visitor visa required."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "AU",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Australian Visitor visa (subclass 600) online application required."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "AE",
+    "category": "visa_on_arrival",
+    "maxStayDays": 180,
+    "notes": "Mutual visa waiver: 180-day visa on arrival / entry stamp."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa available online (or if holding valid US/UK/Schengen visa)."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival for $25 USD."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "TH",
+    "category": "visa_on_arrival",
+    "maxStayDays": 15,
+    "notes": "Visa on Arrival (VoA) or e-VoA available at airport immigration for 15 days."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "SG",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "Visa-free entry for up to 30 days."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "CH",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days in any 180-day period in the Schengen area (ETIAS required when active)."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "TR",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Electronic visa (e-Visa) free of charge online for Mexican citizens."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "BR",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Brazil eVisa required online for Mexican citizens."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "KR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days (K-ETA required)."
+  },
+  {
+    "originCode": "MX",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival for 30 days."
   }
 ]
