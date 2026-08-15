@@ -15,28 +15,28 @@ export function Header() {
               Travel<span className="text-blue-600">Logistics</span>
             </span>
             <span className="hidden sm:inline-block ml-2 rounded-md bg-slate-100 px-1.5 py-0.5 text-[10px] font-semibold text-slate-600">
-              pSEO Engine
+              2026 Guide
             </span>
           </div>
         </Link>
 
         <nav className="flex items-center gap-4 text-xs font-semibold sm:gap-6 sm:text-sm">
           <Link
-            href="/united-states-to-japan"
+            href="/from-united-states-to-japan"
             className="hidden items-center gap-1.5 text-slate-600 transition hover:text-blue-600 md:flex"
           >
             <Zap className="h-4 w-4 text-amber-500" />
             <span>US ➔ Japan</span>
           </Link>
           <Link
-            href="/united-states-to-united-kingdom"
+            href="/from-united-states-to-united-kingdom"
             className="hidden items-center gap-1.5 text-slate-600 transition hover:text-blue-600 md:flex"
           >
             <Shield className="h-4 w-4 text-blue-500" />
             <span>US ➔ UK</span>
           </Link>
           <Link
-            href="/united-kingdom-to-thailand"
+            href="/from-united-kingdom-to-thailand"
             className="hidden items-center gap-1.5 text-slate-600 transition hover:text-blue-600 md:flex"
           >
             <Wifi className="h-4 w-4 text-emerald-500" />
@@ -45,9 +45,9 @@ export function Header() {
 
           <Link
             href="/"
-            className="rounded-lg bg-slate-900 px-3.5 py-2 text-xs font-medium text-white transition hover:bg-slate-800"
+            className="rounded-xl bg-slate-900 px-4 py-2 text-xs font-bold text-white transition hover:bg-slate-800"
           >
-            Find My Route
+            Compare Routes
           </Link>
         </nav>
       </div>

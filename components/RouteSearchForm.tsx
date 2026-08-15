@@ -22,19 +22,19 @@ export function RouteSearchForm({ countries }: Props) {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (origin && destination && origin !== destination) {
-      router.push(`/${origin}-to-${destination}`);
+      router.push(`/from-${origin}-to-${destination}`);
     }
   };
 
   return (
     <form
       onSubmit={handleSubmit}
-      className="mx-auto mt-8 max-w-3xl rounded-3xl border border-slate-200/80 bg-white/95 p-4 sm:p-6 shadow-xl backdrop-blur-md"
+      className="mx-auto mt-8 max-w-3xl rounded-3xl border border-slate-200/80 bg-white/95 p-4 sm:p-6 shadow-xl backdrop-blur-md text-slate-900"
     >
       <div className="grid gap-3 sm:grid-cols-[1fr,auto,1fr] sm:items-center">
         {/* Origin Selector */}
-        <div className="space-y-1">
-          <label htmlFor="origin-select" className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
+        <div className="space-y-1 text-left">
+          <label htmlFor="origin-select" className="text-xs font-bold text-slate-600 uppercase tracking-wider">
             Departing From (Origin)
           </label>
           <div className="relative">
@@ -46,7 +46,7 @@ export function RouteSearchForm({ countries }: Props) {
             >
               {countries.map((c) => (
                 <option key={c.slug} value={c.slug}>
-                  {c.flagEmoji} {c.name}
+                  {c.flagEmoji} {c.name} ({c.nationality})
                 </option>
               ))}
             </select>
@@ -66,8 +66,8 @@ export function RouteSearchForm({ countries }: Props) {
         </div>
 
         {/* Destination Selector */}
-        <div className="space-y-1">
-          <label htmlFor="destination-select" className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
+        <div className="space-y-1 text-left">
+          <label htmlFor="destination-select" className="text-xs font-bold text-slate-600 uppercase tracking-wider">
             Traveling To (Destination)
           </label>
           <div className="relative">

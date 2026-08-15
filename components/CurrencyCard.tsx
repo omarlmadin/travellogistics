@@ -1,81 +1,118 @@
 import React from 'react';
 import { Country } from '@/types';
-import { Coins, CreditCard, Banknote, HelpCircle } from 'lucide-react';
+import { CountryFlag } from './CountryFlag';
+import { Coins, CreditCard, Banknote, Info, DollarSign, Wallet } from 'lucide-react';
 
 interface Props {
   origin: Country;
   destination: Country;
 }
 
-const cardAcceptanceDescriptions = {
-  very_high: 'Card/Contactless is accepted almost everywhere (Apple Pay, Visa, Mastercard).',
-  high: 'Credit & debit cards widely accepted; keep a small amount of cash for small vendors.',
-  moderate: 'Cards accepted in hotels & modern venues; cash is needed for street vendors and taxis.',
-  cash_preferred: 'Cash is king. Always carry local physical currency for daily transactions.',
-};
-
 export function CurrencyCard({ origin, destination }: Props) {
-  const sameCurrency = origin.currency.code === destination.currency.code;
+  const cardAcceptanceLabels: Record<string, { label: string; color: string; desc: string }> = {
+    very_high: {
+      label: 'Nearly 100% Cashless (Very High)',
+      color: 'bg-emerald-50 text-emerald-700 ring-emerald-600/20',
+      desc: 'Credit/debit cards and mobile payments (Apple Pay, Google Pay) are accepted nearly everywhere.',
+    },
+    high: {
+      label: 'Card Friendly (High Acceptance)',
+      color: 'bg-blue-50 text-blue-700 ring-blue-600/20',
+      desc: 'Cards accepted for most restaurants and hotels. Carry small cash for local street vendors.',
+    },
+    moderate: {
+      label: 'Mixed Cash & Card Economy',
+      color: 'bg-amber-50 text-amber-700 ring-amber-600/20',
+      desc: 'Major shops accept card, but street markets, taxis, and small eateries require physical cash.',
+    },
+    cash_preferred: {
+      label: 'Cash Heavily Preferred',
+      color: 'bg-rose-50 text-rose-700 ring-rose-600/20',
+      desc: 'Cash is the primary method of payment. ATMs in major centers; carry local banknotes.',
+    },
+  };
+
+  const cardStatus =
+    cardAcceptanceLabels[destination.cardAcceptance] || cardAcceptanceLabels.high;
 
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-      <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
-        <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-violet-50 text-violet-600 ring-1 ring-violet-500/10">
-          <Coins className="h-6 w-6" />
+    <div className="flex flex-col justify-between rounded-3xl border border-slate-200/80 bg-white p-6 shadow-sm">
+      <div>
+        {/* Header */}
+        <div className="flex items-start justify-between border-b border-slate-100 pb-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-violet-50 text-violet-600 ring-1 ring-violet-500/20">
+              <Coins className="h-6 w-6" />
+            </div>
+            <div>
+              <h2 className="text-lg font-bold text-slate-900">Currency & Payment Rules</h2>
+              <p className="text-xs text-slate-500">
+                Official money & payment culture in {destination.name}
+              </p>
+            </div>
+          </div>
+
+          <CountryFlag code={destination.code} name={destination.name} emoji={destination.flagEmoji} size="sm" />
         </div>
-        <div>
-          <h2 className="text-lg font-bold text-slate-900">Currency & Payment Methods</h2>
-          <p className="text-xs text-slate-500">Money handling in {destination.name}</p>
+
+        {/* Currency Details */}
+        <div className="mt-5 space-y-3.5">
+          <div className="grid grid-cols-2 gap-3">
+            <div className="rounded-2xl border border-slate-100 bg-slate-50/70 p-3.5">
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wide">
+                Destination Currency
+              </span>
+              <div className="mt-1 text-xl font-black text-slate-900">
+                {destination.currency.code} ({destination.currency.symbol})
+              </div>
+              <p className="text-xs text-slate-600 truncate">{destination.currency.name}</p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-100 bg-slate-50/70 p-3.5">
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wide">
+                Origin Currency
+              </span>
+              <div className="mt-1 text-xl font-black text-slate-700">
+                {origin.currency.code} ({origin.currency.symbol})
+              </div>
+              <p className="text-xs text-slate-500 truncate">{origin.currency.name}</p>
+            </div>
+          </div>
+
+          {/* Card Acceptance */}
+          <div className="rounded-2xl border border-slate-100 bg-slate-50/60 p-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <CreditCard className="h-4 w-4 text-violet-600" />
+                <span className="text-xs font-bold text-slate-800">Card Acceptance</span>
+              </div>
+              <span
+                className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-[10px] font-bold ring-1 ${cardStatus.color}`}
+              >
+                {cardStatus.label}
+              </span>
+            </div>
+            <p className="mt-2 text-xs leading-relaxed text-slate-600">{cardStatus.desc}</p>
+          </div>
+
+          {/* Tipping Culture */}
+          <div className="rounded-2xl border border-slate-100 bg-slate-50/60 p-4">
+            <div className="flex items-center gap-2 text-xs font-bold text-slate-800">
+              <Wallet className="h-4 w-4 text-emerald-600" />
+              <span>Tipping Etiquette</span>
+            </div>
+            <p className="mt-2 text-xs leading-relaxed text-slate-600">
+              {destination.tippingCulture}
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="mt-5 grid grid-cols-2 gap-3 sm:gap-4">
-        {/* Origin Currency */}
-        <div className="rounded-xl border border-slate-100 bg-slate-50 p-4">
-          <span className="text-xs text-slate-500">{origin.name} Currency</span>
-          <div className="mt-1 text-xl font-bold text-slate-900">
-            {origin.currency.symbol} {origin.currency.code}
-          </div>
-          <p className="text-xs text-slate-500">{origin.currency.name}</p>
-        </div>
-
-        {/* Destination Currency */}
-        <div className="rounded-xl border border-violet-100 bg-violet-50/40 p-4">
-          <span className="text-xs font-semibold text-violet-700">{destination.name} Currency</span>
-          <div className="mt-1 text-xl font-bold text-violet-950">
-            {destination.currency.symbol} {destination.currency.code}
-          </div>
-          <p className="text-xs text-violet-700">{destination.currency.name}</p>
-        </div>
+      <div className="mt-5 rounded-2xl bg-violet-50/60 p-3 text-[11px] text-violet-900 border border-violet-100">
+        <span>
+          💡 <strong>Tip:</strong> Always choose to be billed in local destination currency (<strong>{destination.currency.code}</strong>) rather than your home currency on card terminals to avoid hidden dynamic currency conversion (DCC) markups.
+        </span>
       </div>
-
-      {/* Payment and Tipping Culture */}
-      <div className="mt-4 space-y-2.5 text-xs">
-        <div className="flex items-start gap-2.5 rounded-xl bg-slate-50 p-3 text-slate-700">
-          <CreditCard className="h-4 w-4 shrink-0 text-slate-500 mt-0.5" />
-          <div>
-            <span className="font-semibold text-slate-800">Card Acceptance: </span>
-            <span>{cardAcceptanceDescriptions[destination.cardAcceptance]}</span>
-          </div>
-        </div>
-
-        <div className="flex items-start gap-2.5 rounded-xl bg-slate-50 p-3 text-slate-700">
-          <Banknote className="h-4 w-4 shrink-0 text-slate-500 mt-0.5" />
-          <div>
-            <span className="font-semibold text-slate-800">Tipping Etiquette: </span>
-            <span>{destination.tippingCulture}</span>
-          </div>
-        </div>
-      </div>
-
-      {/* Quick Travel Tip */}
-      {!sameCurrency && (
-        <div className="mt-4 flex items-center justify-between rounded-xl bg-slate-900 p-3 text-xs text-white">
-          <span className="text-slate-300">
-            Tip: Use a fee-free travel card (Wise / Revolut) to spend in {destination.currency.code}.
-          </span>
-        </div>
-      )}
     </div>
   );
 }

@@ -3,6 +3,7 @@
     "slug": "united-states",
     "code": "US",
     "name": "United States",
+    "nationality": "American",
     "flagEmoji": "🇺🇸",
     "region": "North America",
     "plugTypes": ["A", "B"],
@@ -14,12 +15,17 @@
     "drivingSide": "right",
     "callingCode": "+1",
     "tippingCulture": "18% - 22% is standard in restaurants and taxis.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "New York City & American National Parks",
+    "landmarkDescription": "From iconic metropolitan skylines to vast national parks, the US features standard 120V Type A/B electrical outlets and widespread contactless credit card payment infrastructure."
   },
   {
     "slug": "united-kingdom",
     "code": "GB",
     "name": "United Kingdom",
+    "nationality": "British",
     "flagEmoji": "🇬🇧",
     "region": "Europe",
     "plugTypes": ["G"],
@@ -31,12 +37,17 @@
     "drivingSide": "left",
     "callingCode": "+44",
     "tippingCulture": "10% - 12.5% often included as service charge.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1520986606214-8b456906c813?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "London Tower Bridge & Historic Britain",
+    "landmarkDescription": "The UK operates on 230V with heavy-duty Type G three-pin fused plugs. Traffic drives on the left side, and public transit across London is almost 100% contactless."
   },
   {
     "slug": "japan",
     "code": "JP",
     "name": "Japan",
+    "nationality": "Japanese",
     "flagEmoji": "🇯🇵",
     "region": "Asia",
     "plugTypes": ["A", "B"],
@@ -48,12 +59,17 @@
     "drivingSide": "left",
     "callingCode": "+81",
     "tippingCulture": "No tipping culture (can be seen as impolite).",
-    "cardAcceptance": "high"
+    "cardAcceptance": "high",
+    "heroImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Mount Fuji & Tokyo Metropolis",
+    "landmarkDescription": "Japan uses unique 100V electrical power (the lowest in the world) with 2-pin Type A plugs. Dual-voltage phone chargers work effortlessly, but high-draw heating appliances may require converters."
   },
   {
     "slug": "germany",
     "code": "DE",
     "name": "Germany",
+    "nationality": "German",
     "flagEmoji": "🇩🇪",
     "region": "Europe",
     "plugTypes": ["C", "F"],
@@ -65,12 +81,17 @@
     "drivingSide": "right",
     "callingCode": "+49",
     "tippingCulture": "5% - 10% rounded up to the nearest euro.",
-    "cardAcceptance": "high"
+    "cardAcceptance": "high",
+    "heroImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Bavarian Castles & Berlin Architecture",
+    "landmarkDescription": "Germany utilizes standardized European Type C and Type F (Schuko) grounded sockets running on 230V 50Hz electricity. Tap water is pristine and safe everywhere."
   },
   {
     "slug": "france",
     "code": "FR",
     "name": "France",
+    "nationality": "French",
     "flagEmoji": "🇫🇷",
     "region": "Europe",
     "plugTypes": ["C", "E"],
@@ -82,12 +103,17 @@
     "drivingSide": "right",
     "callingCode": "+33",
     "tippingCulture": "Service compris (included by law); small round-ups appreciated.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Eiffel Tower Paris & The French Riviera",
+    "landmarkDescription": "France features Type C and Type E sockets (with an earth pin protruding from the socket) at 230V. Europlug adapters fit smoothly for electronics."
   },
   {
     "slug": "italy",
     "code": "IT",
     "name": "Italy",
+    "nationality": "Italian",
     "flagEmoji": "🇮🇹",
     "region": "Europe",
     "plugTypes": ["C", "F", "L"],
@@ -99,12 +125,17 @@
     "drivingSide": "right",
     "callingCode": "+39",
     "tippingCulture": "Coperto (cover charge) is common; 5%-10% for exceptional service.",
-    "cardAcceptance": "high"
+    "cardAcceptance": "high",
+    "heroImage": "https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "The Colosseum Rome & Amalfi Coastline",
+    "landmarkDescription": "Italy features Type C, F, and inline 3-pin Type L sockets. Modern hotels support Europlug Type C, making universal adapters recommended for older wall sockets."
   },
   {
     "slug": "spain",
     "code": "ES",
     "name": "Spain",
+    "nationality": "Spanish",
     "flagEmoji": "🇪🇸",
     "region": "Europe",
     "plugTypes": ["C", "F"],
@@ -116,12 +147,17 @@
     "drivingSide": "right",
     "callingCode": "+34",
     "tippingCulture": "5% - 10% for sit-down meals; loose change for drinks.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Sagrada Família Barcelona & Madrid",
+    "landmarkDescription": "Spain uses standard 230V Type C and Type F sockets. Credit and debit cards with contactless NFC chips are accepted almost everywhere."
   },
   {
     "slug": "canada",
     "code": "CA",
     "name": "Canada",
+    "nationality": "Canadian",
     "flagEmoji": "🇨🇦",
     "region": "North America",
     "plugTypes": ["A", "B"],
@@ -133,12 +169,17 @@
     "drivingSide": "right",
     "callingCode": "+1",
     "tippingCulture": "15% - 20% standard in restaurants and bars.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1517935703635-271905455910?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Banff National Park & Canadian Rockies",
+    "landmarkDescription": "Canada shares electrical standards with the United States: 120V at 60Hz with Type A and Type B grounded sockets. Emergency services are reached by dialing 911."
   },
   {
     "slug": "australia",
     "code": "AU",
     "name": "Australia",
+    "nationality": "Australian",
     "flagEmoji": "🇦🇺",
     "region": "Oceania",
     "plugTypes": ["I"],
@@ -150,12 +191,17 @@
     "drivingSide": "left",
     "callingCode": "+61",
     "tippingCulture": "Optional; 10% for great restaurant service.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Sydney Harbour & The Great Barrier Reef",
+    "landmarkDescription": "Australia uses unique Type I angled two or three-pin plugs operating at 230V. Drivers must drive on the left side of the road, and card payments are ubiquitous."
   },
   {
     "slug": "united-arab-emirates",
     "code": "AE",
     "name": "United Arab Emirates",
+    "nationality": "Emirati",
     "flagEmoji": "🇦🇪",
     "region": "Middle East",
     "plugTypes": ["C", "D", "G"],
@@ -167,12 +213,17 @@
     "drivingSide": "right",
     "callingCode": "+971",
     "tippingCulture": "10% - 15% is standard practice in restaurants.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Burj Khalifa Dubai & Sheikh Zayed Mosque",
+    "landmarkDescription": "The UAE predominantly uses British Type G 3-pin plugs at 230V. Desalinated tap water is safe for washing, but bottled or filtered drinking water is customary for tourists."
   },
   {
     "slug": "saudi-arabia",
     "code": "SA",
     "name": "Saudi Arabia",
+    "nationality": "Saudi",
     "flagEmoji": "🇸🇦",
     "region": "Middle East",
     "plugTypes": ["G"],
@@ -184,12 +235,17 @@
     "drivingSide": "right",
     "callingCode": "+966",
     "tippingCulture": "10% - 15% in casual and fine dining.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1565552645632-d725f8bfc19a?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Historic AlUla & Modern Riyadh",
+    "landmarkDescription": "Saudi Arabia standardized on British Type G 230V 60Hz wall sockets. The Kingdom has embraced rapid digital transformation with Mada and Apple Pay accepted everywhere."
   },
   {
     "slug": "egypt",
     "code": "EG",
     "name": "Egypt",
+    "nationality": "Egyptian",
     "flagEmoji": "🇪🇬",
     "region": "Africa",
     "plugTypes": ["C", "F"],
@@ -201,12 +257,17 @@
     "drivingSide": "right",
     "callingCode": "+20",
     "tippingCulture": "Baksheesh culture: 10% - 12% at restaurants, tips for assistance.",
-    "cardAcceptance": "cash_preferred"
+    "cardAcceptance": "cash_preferred",
+    "heroImage": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Great Pyramids of Giza & Nile River",
+    "landmarkDescription": "Egypt operates on 220V with standard 2-pin Europlug Type C and Type F sockets. Carrying small cash denominations in Egyptian Pounds is essential for daily transactions."
   },
   {
     "slug": "thailand",
     "code": "TH",
     "name": "Thailand",
+    "nationality": "Thai",
     "flagEmoji": "🇹🇭",
     "region": "Asia",
     "plugTypes": ["A", "B", "C", "O"],
@@ -218,12 +279,17 @@
     "drivingSide": "left",
     "callingCode": "+66",
     "tippingCulture": "Not customary; 20-50 THB change appreciated.",
-    "cardAcceptance": "moderate"
+    "cardAcceptance": "moderate",
+    "heroImage": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Bangkok Grand Palace & Tropical Islands",
+    "landmarkDescription": "Thailand features hybrid wall sockets supporting Type A, B, and C plugs at 220V. Tap water is not drinkable; stick to sealed bottled water and drink ice from filtered vendors."
   },
   {
     "slug": "singapore",
     "code": "SG",
     "name": "Singapore",
+    "nationality": "Singaporean",
     "flagEmoji": "🇸🇬",
     "region": "Asia",
     "plugTypes": ["C", "G", "M"],
@@ -235,12 +301,17 @@
     "drivingSide": "left",
     "callingCode": "+65",
     "tippingCulture": "10% service charge is usually included on bills.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Marina Bay Sands & Gardens by the Bay",
+    "landmarkDescription": "Singapore uses standard British Type G 3-pin sockets at 230V. The island city-state is nearly 100% cashless, and tap water is clean, treated, and directly drinkable."
   },
   {
     "slug": "switzerland",
     "code": "CH",
     "name": "Switzerland",
+    "nationality": "Swiss",
     "flagEmoji": "🇨🇭",
     "region": "Europe",
     "plugTypes": ["C", "J"],
@@ -252,12 +323,17 @@
     "drivingSide": "right",
     "callingCode": "+41",
     "tippingCulture": "Included in bill by law; rounding up is customary.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "The Swiss Alps & Lake Geneva",
+    "landmarkDescription": "Switzerland uses hex-recessed Type J sockets with 3 round pins. Slim 2-pin Type C Europlugs fit into Type J sockets, but bulky grounded plugs need a Type J adapter."
   },
   {
     "slug": "turkey",
     "code": "TR",
     "name": "Turkey",
+    "nationality": "Turkish",
     "flagEmoji": "🇹🇷",
     "region": "Europe/Asia",
     "plugTypes": ["C", "F"],
@@ -269,12 +345,17 @@
     "drivingSide": "right",
     "callingCode": "+90",
     "tippingCulture": "5% - 10% in restaurants, cash preferred for tips.",
-    "cardAcceptance": "high"
+    "cardAcceptance": "high",
+    "heroImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Cappadocia Valleys & Historic Istanbul",
+    "landmarkDescription": "Turkey uses standard European Type C and Type F sockets at 230V. Bottled water is recommended across cities, and Turkish Lira cash is handy for local bazaars."
   },
   {
     "slug": "brazil",
     "code": "BR",
     "name": "Brazil",
+    "nationality": "Brazilian",
     "flagEmoji": "🇧🇷",
     "region": "South America",
     "plugTypes": ["C", "N"],
@@ -286,12 +367,17 @@
     "drivingSide": "right",
     "callingCode": "+55",
     "tippingCulture": "10% 'taxa de serviço' usually included in bill.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Christ the Redeemer & Copacabana Rio",
+    "landmarkDescription": "Brazil uses Type N sockets (IEC 60906-1). Voltage varies between 127V in Rio/São Paulo and 220V in northeastern states like Bahia. Dual-voltage devices are recommended."
   },
   {
     "slug": "south-korea",
     "code": "KR",
     "name": "South Korea",
+    "nationality": "South Korean",
     "flagEmoji": "🇰🇷",
     "region": "Asia",
     "plugTypes": ["C", "F"],
@@ -303,12 +389,17 @@
     "drivingSide": "right",
     "callingCode": "+82",
     "tippingCulture": "No tipping culture; bills include everything.",
-    "cardAcceptance": "very_high"
+    "cardAcceptance": "very_high",
+    "heroImage": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Seoul Gyeongbokgung Palace & Namsan",
+    "landmarkDescription": "South Korea uses standard Type C and Type F (Schuko) sockets running at 220V 60Hz. South Korea is one of the most technologically advanced and cashless countries in the world."
   },
   {
     "slug": "indonesia",
     "code": "ID",
     "name": "Indonesia",
+    "nationality": "Indonesian",
     "flagEmoji": "🇮🇩",
     "region": "Asia",
     "plugTypes": ["C", "F"],
@@ -320,12 +411,17 @@
     "drivingSide": "left",
     "callingCode": "+62",
     "tippingCulture": "5% - 10% appreciated in tourist zones like Bali.",
-    "cardAcceptance": "moderate"
+    "cardAcceptance": "moderate",
+    "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Bali Temples, Beaches & Nusa Penida",
+    "landmarkDescription": "Indonesia uses Type C and Type F European-style plugs at 230V. Never drink tap water; use filtered bottled water for brushing teeth and drinking."
   },
   {
     "slug": "mexico",
     "code": "MX",
     "name": "Mexico",
+    "nationality": "Mexican",
     "flagEmoji": "🇲🇽",
     "region": "North America",
     "plugTypes": ["A", "B"],
@@ -337,6 +433,10 @@
     "drivingSide": "right",
     "callingCode": "+52",
     "tippingCulture": "10% - 15% (propina) is expected at dining spots.",
-    "cardAcceptance": "high"
+    "cardAcceptance": "high",
+    "heroImage": "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?auto=format&fit=crop&w=1600&q=80",
+    "landmarkImage": "https://images.unsplash.com/photo-1512815767575-c9a96e838ff2?auto=format&fit=crop&w=1000&q=80",
+    "landmarkTitle": "Chichen Itza, Cancun & Mexico City",
+    "landmarkDescription": "Mexico uses 127V Type A and Type B plugs identical to the US and Canada. Bottled water (agua purificada) is standard practice across the entire country."
   }
 ]

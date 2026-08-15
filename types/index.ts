@@ -32,10 +32,11 @@ export interface Country {
   slug: string;
   code: string; // ISO 2-letter uppercase (e.g., "US")
   name: string;
+  nationality: string; // e.g. "American", "British", "Japanese"
   flagEmoji: string;
   region: string;
   plugTypes: PlugType[];
-  voltage: number; // in Volts (e.g. 120, 230)
+  voltage: number; // in Volts (e.g. 100, 120, 220, 230)
   frequency: number; // in Hertz (50 or 60)
   currency: CurrencyInfo;
   emergencyNumber: string;
@@ -44,6 +45,10 @@ export interface Country {
   callingCode: string;
   tippingCulture: string;
   cardAcceptance: 'very_high' | 'high' | 'moderate' | 'cash_preferred';
+  heroImage?: string;
+  landmarkImage?: string;
+  landmarkTitle?: string;
+  landmarkDescription?: string;
 }
 
 export interface VisaRule {

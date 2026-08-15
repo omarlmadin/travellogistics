@@ -22,10 +22,16 @@ export function getCountryByCode(code: string): Country | undefined {
 export function parseRouteSlug(slug: string): { origin: Country; destination: Country } | null {
   if (!slug || !slug.includes('-to-')) return null;
 
+  // Clean prefix if starts with 'from-'
+  let cleanSlug = slug.toLowerCase();
+  if (cleanSlug.startsWith('from-')) {
+    cleanSlug = cleanSlug.slice(5);
+  }
+
   for (const origin of countries) {
     const prefix = `${origin.slug}-to-`;
-    if (slug.startsWith(prefix)) {
-      const destSlug = slug.slice(prefix.length);
+    if (cleanSlug.startsWith(prefix)) {
+      const destSlug = cleanSlug.slice(prefix.length);
       const destination = countries.find((c) => c.slug === destSlug);
       if (destination && origin.slug !== destination.slug) {
         return { origin, destination };
@@ -51,9 +57,9 @@ export function calculatePlugCompatibility(
   if (needsAdapter && needsVoltageConverter) {
     advice = `You will need both a physical plug adapter (Type ${dest.plugTypes.join('/')}) and a voltage converter if your devices do not support dual voltage (100–240V).`;
   } else if (needsAdapter) {
-    advice = `Your plugs (Type ${origin.plugTypes.join('/')}) won't fit into outlets in ${dest.name} (Type ${dest.plugTypes.join('/')}). A universal travel adapter is required.`;
+    advice = `Your plugs (Type ${origin.plugTypes.join('/')}) will not fit into outlets in ${dest.name} (Type ${dest.plugTypes.join('/')}). A universal travel adapter is required.`;
   } else if (needsVoltageConverter) {
-    advice = `Your plug shapes match, but voltage differs (${origin.voltage}V vs ${dest.voltage}V). Ensure sensitive appliances (hairdryers, curling irons) are dual-voltage rated.`;
+    advice = `Your plug shapes match, but voltage differs (${origin.voltage}V vs ${dest.voltage}V). Ensure sensitive heating appliances (hairdryers, curling irons) are dual-voltage rated.`;
   } else {
     advice = `Great news! Plugs and voltage in ${dest.name} are fully compatible with your devices from ${origin.name}. No adapter needed!`;
   }
@@ -81,7 +87,7 @@ export function getVisaRule(originCode: string, destCode: string): VisaRule {
 
   if (matched) return matched;
 
-  // Smart heuristic fallback if exact rule isn't in JSON
+  // Heuristic fallback
   return {
     originCode,
     destinationCode: destCode,
@@ -111,7 +117,7 @@ export function getAllRouteCombinations(): { slug: string; origin: string; desti
     for (const destination of countries) {
       if (origin.slug !== destination.slug) {
         routes.push({
-          slug: `${origin.slug}-to-${destination.slug}`,
+          slug: `from-${origin.slug}-to-${destination.slug}`,
           origin: origin.slug,
           destination: destination.slug,
         });
@@ -122,7 +128,7 @@ export function getAllRouteCombinations(): { slug: string; origin: string; desti
   return routes;
 }
 
-export function getPopularRoutes(): { origin: Country; destination: Country }[] {
+export function getPopularRoutes(): { origin: Country; destination: Country; slug: string }[] {
   const popularPairs = [
     ['united-states', 'japan'],
     ['united-states', 'united-kingdom'],
@@ -138,12 +144,16 @@ export function getPopularRoutes(): { origin: Country; destination: Country }[] 
     ['saudi-arabia', 'united-arab-emirates'],
   ];
 
-  const results: { origin: Country; destination: Country }[] = [];
+  const results: { origin: Country; destination: Country; slug: string }[] = [];
   for (const [oSlug, dSlug] of popularPairs) {
     const o = getCountryBySlug(oSlug);
     const d = getCountryBySlug(dSlug);
     if (o && d) {
-      results.push({ origin: o, destination: d });
+      results.push({
+        origin: o,
+        destination: d,
+        slug: `from-${o.slug}-to-${d.slug}`,
+      });
     }
   }
   return results;

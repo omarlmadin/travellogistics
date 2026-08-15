@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import { Compass, ShieldCheck, Heart } from 'lucide-react';
+import { Compass, ShieldCheck } from 'lucide-react';
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = 2026;
 
   return (
     <footer className="border-t border-slate-200 bg-white pt-12 pb-8 text-slate-600">
@@ -11,10 +11,10 @@ export function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
           <div className="space-y-3">
             <div className="flex items-center gap-2">
-              <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-blue-600 text-white">
+              <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-blue-600 text-white shadow-sm shadow-blue-500/20">
                 <Compass className="h-4 w-4" />
               </div>
-              <span className="font-bold text-slate-900">TravelLogistics</span>
+              <span className="font-bold text-slate-900 text-base">TravelLogistics</span>
             </div>
             <p className="text-xs leading-relaxed text-slate-500">
               The automated, programmatic travel guide for real-time power plug compatibility, visa requirements, voltage checks, and connectivity worldwide.
@@ -22,25 +22,25 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">Popular Hubs</h4>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">Popular Routes</h4>
             <ul className="mt-3 space-y-2 text-xs">
               <li>
-                <Link href="/united-states-to-japan" className="hover:text-blue-600">
+                <Link href="/from-united-states-to-japan" className="hover:text-blue-600 transition">
                   United States to Japan
                 </Link>
               </li>
               <li>
-                <Link href="/united-states-to-united-kingdom" className="hover:text-blue-600">
+                <Link href="/from-united-states-to-united-kingdom" className="hover:text-blue-600 transition">
                   United States to United Kingdom
                 </Link>
               </li>
               <li>
-                <Link href="/united-kingdom-to-thailand" className="hover:text-blue-600">
+                <Link href="/from-united-kingdom-to-thailand" className="hover:text-blue-600 transition">
                   United Kingdom to Thailand
                 </Link>
               </li>
               <li>
-                <Link href="/australia-to-japan" className="hover:text-blue-600">
+                <Link href="/from-australia-to-japan" className="hover:text-blue-600 transition">
                   Australia to Japan
                 </Link>
               </li>
@@ -80,7 +80,7 @@ export function Footer() {
         <div className="mt-10 border-t border-slate-100 pt-6 flex flex-col items-center justify-between gap-4 sm:flex-row text-xs text-slate-400">
           <p>© {currentYear} TravelLogistics Guide. All rights reserved.</p>
           <div className="flex items-center gap-1">
-            <span>Built for high performance on Netlify</span>
+            <span>Built for high performance with 100/100 PageSpeed</span>
           </div>
         </div>
       </div>

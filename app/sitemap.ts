@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const dynamicRoutes: MetadataRoute.Sitemap = routes.map((route) => ({
     url: `${baseUrl}/${route.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date('2026-01-15T00:00:00Z'),
     changeFrequency: 'monthly',
     priority: 0.8,
   }));
@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: new Date('2026-01-15T00:00:00Z'),
       changeFrequency: 'weekly',
       priority: 1.0,
     },
