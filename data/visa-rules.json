@@ -1,0 +1,286 @@
+[
+  {
+    "originCode": "US",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Valid US passport required. Tourism and business stays up to 90 days are visa-exempt."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK Electronic Travel Authorisation (ETA) must be obtained online prior to departure."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "FR",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Schengen area rules: ETIAS travel authorization required for stays up to 90 days in any 180-day window."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "DE",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Schengen ETIAS authorization required for short stays up to 90 days."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "IT",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Schengen ETIAS authorization required for short stays up to 90 days."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "ES",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Schengen ETIAS authorization required for short stays up to 90 days."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "US passport holders receive 60-day visa exemption on arrival for tourism."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "AE",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "Free 30-day visa on arrival stamped at airport immigration."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Saudi tourist e-Visa required online before travel. Valid for 1 year with multiple entries."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa online or Visa on Arrival at Cairo international airport for $25 USD."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "AU",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "Australian ETA (subclass 601) required via official Australian ETA app."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA (Electronic Visa on Arrival) can be purchased online or upon arrival at Denpasar/Jakarta."
+  },
+  {
+    "originCode": "US",
+    "destinationCode": "BR",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Brazil eVisa required for US citizens before boarding."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA (Electronic System for Travel Authorization) mandatory prior to boarding flight."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "British citizens can enter Japan for up to 90 days visa-free for tourism."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "60-day visa exemption scheme applied upon entry."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "AE",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "30-day visa on arrival granted free of charge."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Schengen 90/180-day rule applies for UK passport holders post-Brexit."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "ES",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Schengen 90/180-day rule applies for UK passport holders post-Brexit."
+  },
+  {
+    "originCode": "GB",
+    "destinationCode": "EG",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "e-Visa available online or Visa on Arrival for $25 USD."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under the US Visa Waiver Program."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "notes": "EU Freedom of movement. National ID card or passport sufficient."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 60,
+    "notes": "German passport holders receive 60-day visa exemption on arrival."
+  },
+  {
+    "originCode": "DE",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry for up to 90 days for tourism and short visits."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under the US Visa Waiver Program."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free entry up to 90 days."
+  },
+  {
+    "originCode": "FR",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA authorization required for EU citizens."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "US",
+    "category": "visa_free",
+    "maxStayDays": 180,
+    "notes": "Canadian citizens enter the US visa-free with valid Canadian passport."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for up to 90 days."
+  },
+  {
+    "originCode": "CA",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA required prior to travel."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "US",
+    "category": "eta_required",
+    "maxStayDays": 90,
+    "notes": "ESTA authorization required under the Visa Waiver Program."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "JP",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Visa-free for tourism up to 90 days."
+  },
+  {
+    "originCode": "AU",
+    "destinationCode": "ID",
+    "category": "visa_on_arrival",
+    "maxStayDays": 30,
+    "notes": "e-VOA available online or on arrival at Bali / Jakarta airports."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK Electronic Travel Authorisation (ETA) valid for multiple entries."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "TH",
+    "category": "visa_free",
+    "maxStayDays": 30,
+    "notes": "UAE passport holders receive 30-day visa-free entry."
+  },
+  {
+    "originCode": "AE",
+    "destinationCode": "FR",
+    "category": "visa_free",
+    "maxStayDays": 90,
+    "notes": "Schengen visa waiver agreement in effect for UAE citizens."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "GB",
+    "category": "eta_required",
+    "maxStayDays": 180,
+    "notes": "UK ETA available online quickly for Saudi nationals."
+  },
+  {
+    "originCode": "SA",
+    "destinationCode": "AE",
+    "category": "visa_free",
+    "notes": "GCC citizens enter visa-free using National ID or passport."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "AE",
+    "category": "e_visa",
+    "maxStayDays": 30,
+    "notes": "Tourist visa can be arranged online via airlines or travel agencies."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "SA",
+    "category": "e_visa",
+    "maxStayDays": 90,
+    "notes": "Tourist/Umrah e-Visa or transit visa available online."
+  },
+  {
+    "originCode": "EG",
+    "destinationCode": "US",
+    "category": "visa_required",
+    "notes": "B1/B2 Visitor visa appointment required at US Embassy in Cairo."
+  }
+]
