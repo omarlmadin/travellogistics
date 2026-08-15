@@ -34,7 +34,7 @@ export function PlugComparisonCard({ origin, destination }: Props) {
               <Zap className="h-6 w-6" />
             </div>
             <div>
-              <h2 className="text-lg font-bold text-slate-900">Power Plug & Voltage Compatibility</h2>
+              <div className="text-base font-bold text-slate-900">Power Plug & Voltage Compatibility</div>
               <p className="text-xs text-slate-500">Wall sockets, frequency & voltage conversion</p>
             </div>
           </div>

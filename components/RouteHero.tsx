@@ -28,7 +28,7 @@ export function RouteHero({ origin, destination, plug, visa }: Props) {
   const currentYear = 2026;
   const destinationImage =
     destination.heroImage ||
-    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80';
+    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75&fm=webp';
 
   // Visa badge format
   const getVisaBadge = () => {
@@ -58,6 +58,7 @@ export function RouteHero({ origin, destination, plug, visa }: Props) {
           alt={`Scenic landscape and city logistics in ${destination.name}`}
           className="h-full w-full object-cover object-center opacity-25 filter saturate-150 transition-all duration-700"
           loading="eager"
+          fetchPriority="high"
         />
         {/* Subtle Dark Gradient Overlay for Maximum Readability */}
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-slate-950/40" />

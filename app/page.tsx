@@ -19,6 +19,8 @@ import {
   Layers,
   Activity,
   Flame,
+  ExternalLink,
+  BookOpen,
 } from 'lucide-react';
 
 export default function HomePage() {
@@ -31,7 +33,7 @@ export default function HomePage() {
       name: 'Japan',
       slug: 'japan',
       code: 'JP',
-      image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=75&fm=webp',
       tag: '100V Type A/B',
       visa: 'Visa-Free (90 Days)',
     },
@@ -39,7 +41,7 @@ export default function HomePage() {
       name: 'United Kingdom',
       slug: 'united-kingdom',
       code: 'GB',
-      image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=75&fm=webp',
       tag: '230V Type G',
       visa: 'ETA Required',
     },
@@ -47,7 +49,7 @@ export default function HomePage() {
       name: 'France',
       slug: 'france',
       code: 'FR',
-      image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=75&fm=webp',
       tag: '230V Type C/E',
       visa: 'Schengen Area',
     },
@@ -55,23 +57,24 @@ export default function HomePage() {
       name: 'Thailand',
       slug: 'thailand',
       code: 'TH',
-      image: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=800&q=75&fm=webp',
       tag: '220V Type A/B/C/O',
       visa: 'Visa-Free (60 Days)',
     },
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50/70 pb-24 selection:bg-blue-600 selection:text-white">
+    <main className="min-h-screen bg-slate-50/70 pb-24 selection:bg-blue-600 selection:text-white">
       {/* 1. Hero Section with Travel Photography, Ambient Lighting & Animations */}
       <section className="relative overflow-hidden bg-slate-950 px-4 pt-20 pb-28 text-white sm:px-6 lg:px-8">
         {/* Hero Travel Photography Background Container */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=2000&q=80"
+            src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1600&q=75&fm=webp"
             alt="International travel logistics, airplane flights and worldwide destination landmarks"
             className="h-full w-full object-cover object-center opacity-25 filter saturate-150 scale-105 transition-transform duration-1000"
             loading="eager"
+            fetchPriority="high"
           />
           {/* Multi-layered Dark Gradients */}
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/85 to-slate-950/50" />
@@ -83,11 +86,11 @@ export default function HomePage() {
         <div className="relative z-10 mx-auto max-w-4xl text-center">
           {/* Animated Verification Pill Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-950/70 px-4 py-1.5 text-xs font-semibold text-sky-300 backdrop-blur-xl shadow-lg shadow-sky-950/50 transition hover:border-sky-400/60 hover:scale-105">
-            <Sparkles className="h-4 w-4 text-sky-400 animate-spin-slow" />
+            <Sparkles className="h-4 w-4 text-sky-400" />
             <span>Updated for 2026 Travel • Embassy & IEC Power Standards</span>
           </div>
 
-          {/* Main Headline */}
+          {/* Main Headline (Single H1) */}
           <h1 className="mt-6 text-3xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl leading-[1.12]">
             Never Get Stranded by <br className="hidden sm:inline" />
             <span className="bg-gradient-to-r from-blue-400 via-sky-300 to-indigo-300 bg-clip-text text-transparent drop-shadow-sm">
@@ -112,8 +115,8 @@ export default function HomePage() {
               <Globe2 className="h-5 w-5" />
             </div>
             <div>
-              <div className="text-lg font-black text-slate-900">190+</div>
-              <div className="text-[11px] font-medium text-slate-500">Countries Indexed</div>
+              <div className="text-lg font-black text-slate-900">380+</div>
+              <div className="text-[11px] font-medium text-slate-500">Verified Travel Routes</div>
             </div>
           </div>
 
@@ -153,17 +156,15 @@ export default function HomePage() {
         {/* Top Ad Unit */}
         <AdPlaceholder slotId="tl-home-top-1" format="horizontal" />
 
-        {/* 3. Bento Grid Core Feature Cards with Micro-Animations */}
+        {/* 3. Core Capabilities Section */}
         <section className="mt-8">
-          <div className="mb-6 flex items-center justify-between">
-            <div>
-              <h2 className="text-xl font-black tracking-tight text-slate-900 sm:text-2xl">
-                What TravelLogistics Solves for You
-              </h2>
-              <p className="text-xs text-slate-500">
-                Four critical pre-departure checklists before boarding international flights
-              </p>
-            </div>
+          <div className="mb-6">
+            <h2 className="text-xl sm:text-2xl font-black tracking-tight text-slate-900">
+              Essential International Travel Logistics Solved
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-500 mt-1">
+              Four critical logistical checkpoints before boarding international flights worldwide
+            </p>
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -172,14 +173,10 @@ export default function HomePage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-50 text-amber-600 ring-1 ring-amber-500/20 transition-transform duration-300 group-hover:scale-110">
                 <Zap className="h-6 w-6" />
               </div>
-              <h3 className="mt-4 text-base font-bold text-slate-900">Plugs & Voltage</h3>
+              <h3 className="mt-4 text-base font-bold text-slate-900">Plugs & Voltage Standards</h3>
               <p className="mt-2 text-xs leading-relaxed text-slate-500">
-                Side-by-side SVG pin diagrams for Types A to O. Alerts for 110V vs 230V high-draw appliances.
+                Compare side-by-side pin diagrams across Types A through O. Identify 110V vs 230V voltage gaps to protect single-voltage heating appliances.
               </p>
-              <div className="mt-4 inline-flex items-center gap-1 text-[11px] font-bold text-amber-700">
-                <span>Universal Adapters</span>
-                <ArrowRight className="h-3.5 w-3.5 transition-transform duration-200 group-hover:translate-x-1" />
-              </div>
             </div>
 
             {/* Feature 2: Visa Requirements */}
@@ -187,14 +184,10 @@ export default function HomePage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 ring-1 ring-blue-500/20 transition-transform duration-300 group-hover:scale-110">
                 <ShieldCheck className="h-6 w-6" />
               </div>
-              <h3 className="mt-4 text-base font-bold text-slate-900">Visa Requirements</h3>
+              <h3 className="mt-4 text-base font-bold text-slate-900">Visa & Entry Regulations</h3>
               <p className="mt-2 text-xs leading-relaxed text-slate-500">
-                Instant check: Visa-Free, ETA / ETIAS, e-Visa online, or VoA requirements with stay duration limits.
+                Verified consular protocols: Visa-Free exemptions, ETA / ETIAS authorizations, online e-Visas, or Visas on Arrival with stay limits.
               </p>
-              <div className="mt-4 inline-flex items-center gap-1 text-[11px] font-bold text-blue-700">
-                <span>Embassy Verified</span>
-                <ArrowRight className="h-3.5 w-3.5 transition-transform duration-200 group-hover:translate-x-1" />
-              </div>
             </div>
 
             {/* Feature 3: eSIM Data */}
@@ -202,14 +195,10 @@ export default function HomePage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-600 ring-1 ring-emerald-500/20 transition-transform duration-300 group-hover:scale-110">
                 <Wifi className="h-6 w-6" />
               </div>
-              <h3 className="mt-4 text-base font-bold text-slate-900">eSIM Connectivity</h3>
+              <h3 className="mt-4 text-base font-bold text-slate-900">eSIM Mobile Connectivity</h3>
               <p className="mt-2 text-xs leading-relaxed text-slate-500">
-                Compare Airalo and Holafly digital QR packages. Keep primary number active for banking SMS 2FA.
+                Pre-install digital travel eSIMs to access instant local 4G/5G data while keeping your domestic SIM line active for banking 2FA SMS.
               </p>
-              <div className="mt-4 inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700">
-                <span>Zero Roaming Fees</span>
-                <ArrowRight className="h-3.5 w-3.5 transition-transform duration-200 group-hover:translate-x-1" />
-              </div>
             </div>
 
             {/* Feature 4: Currency & Health */}
@@ -217,19 +206,51 @@ export default function HomePage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-violet-50 text-violet-600 ring-1 ring-violet-500/20 transition-transform duration-300 group-hover:scale-110">
                 <Coins className="h-6 w-6" />
               </div>
-              <h3 className="mt-4 text-base font-bold text-slate-900">Money & Safety</h3>
+              <h3 className="mt-4 text-base font-bold text-slate-900">Money, Road & Tap Water</h3>
               <p className="mt-2 text-xs leading-relaxed text-slate-500">
-                Card acceptance levels, local tipping norms, potable tap water status, and emergency dispatch numbers.
+                Local tipping customs, avoiding Dynamic Currency Conversion (DCC) markups, potable tap water standards, and emergency dispatch numbers.
               </p>
-              <div className="mt-4 inline-flex items-center gap-1 text-[11px] font-bold text-violet-700">
-                <span>DCC Avoidance Tips</span>
-                <ArrowRight className="h-3.5 w-3.5 transition-transform duration-200 group-hover:translate-x-1" />
-              </div>
             </div>
           </div>
         </section>
 
-        {/* 4. Visual Spotlight Destinations Gallery */}
+        {/* 4. Global Standards & Practical Guide Overview */}
+        <section className="mt-14 rounded-3xl border border-slate-200/80 bg-white p-6 sm:p-8 shadow-sm">
+          <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
+              <BookOpen className="h-6 w-6" />
+            </div>
+            <div>
+              <h2 className="text-xl font-black text-slate-900">
+                Global Travel Standards & Logistics Reference
+              </h2>
+              <p className="text-xs text-slate-500">
+                Authoritative guidelines for international plug types, voltage safety, and border crossings
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-6 space-y-4 text-xs sm:text-sm leading-relaxed text-slate-600">
+            <p>
+              Navigating international travel requires understanding key regional standards. According to the{' '}
+              <a
+                href="https://www.iec.ch/world-plugs"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-blue-600 underline hover:text-blue-800 transition"
+              >
+                IEC World Plugs and Sockets Standard
+              </a>
+              , there are 15 distinct electrical plug types categorized from Type A to Type O. North America primarily uses 120V Type A and B plugs, the United Kingdom utilizes 230V Type G three-pin prongs, mainland Europe relies on Type C, E, and F sockets, and Australia operates on angled Type I prongs.
+            </p>
+
+            <p>
+              Before traveling, always verify whether your high-draw appliances (such as hair dryers, curling wands, and irons) are dual-voltage rated (100–240V). Most modern laptops, tablets, and smartphones support universal voltage out of the box, requiring only a mechanical plug adapter rather than a heavy voltage transformer.
+            </p>
+          </div>
+        </section>
+
+        {/* 5. Visual Spotlight Destinations Gallery */}
         <section className="mt-14">
           <div className="flex items-center justify-between border-b border-slate-200 pb-4">
             <div>
@@ -253,6 +274,8 @@ export default function HomePage() {
                     alt={`${dest.name} travel logistics and sightseeing`}
                     className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
+                    width={400}
+                    height={240}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
                   
@@ -261,7 +284,7 @@ export default function HomePage() {
                   </div>
 
                   <div className="absolute bottom-3 left-3 right-3 text-white">
-                    <h3 className="text-base font-black text-white">{dest.name}</h3>
+                    <div className="text-base font-black text-white">{dest.name}</div>
                     <div className="mt-1 flex items-center gap-2 text-[11px] text-slate-300">
                       <span className="rounded-md bg-white/20 px-1.5 py-0.5 backdrop-blur-md">
                         {dest.tag}
@@ -275,7 +298,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 5. Most Popular Routes Section */}
+        {/* 6. Most Popular Routes Section */}
         <section className="mt-14">
           <div className="flex items-center justify-between border-b border-slate-200 pb-4">
             <div className="flex items-center gap-2">
@@ -307,9 +330,9 @@ export default function HomePage() {
                     <CountryFlag code={destination.code} name={destination.name} emoji={destination.flagEmoji} size="sm" />
                   </div>
                   <div>
-                    <h3 className="text-xs font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                    <div className="text-xs font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
                       {origin.name} to {destination.name}
-                    </h3>
+                    </div>
                     <p className="text-[11px] text-slate-400">
                       Type {destination.plugTypes.join(', ')} • {destination.voltage}V
                     </p>
@@ -327,7 +350,7 @@ export default function HomePage() {
         {/* Mid Page Ad Unit */}
         <AdPlaceholder slotId="tl-home-mid-2" format="horizontal" />
 
-        {/* 6. Browse All Countries Index Mesh */}
+        {/* 7. Browse All Countries Index Mesh */}
         <section className="mt-14 rounded-3xl border border-slate-200/80 bg-white p-6 sm:p-8 shadow-sm">
           <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 ring-1 ring-blue-500/20">
@@ -355,6 +378,6 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-    </div>
+    </main>
   );
 }

@@ -45,7 +45,7 @@ export function CurrencyCard({ origin, destination }: Props) {
               <Coins className="h-6 w-6" />
             </div>
             <div>
-              <h2 className="text-lg font-bold text-slate-900">Currency & Payment Rules</h2>
+              <div className="text-base font-bold text-slate-900">Currency & Payment Rules</div>
               <p className="text-xs text-slate-500">
                 Official money & payment culture in {destination.name}
               </p>

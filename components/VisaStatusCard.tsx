@@ -87,7 +87,7 @@ export function VisaStatusCard({ origin, destination }: Props) {
               <FileCheck className="h-6 w-6" />
             </div>
             <div>
-              <h2 className="text-lg font-bold text-slate-900">Visa & Entry Regulations</h2>
+              <div className="text-base font-bold text-slate-900">Visa & Entry Regulations</div>
               <p className="text-xs text-slate-500">
                 For {origin.nationality} ({origin.name}) passport holders
               </p>

@@ -28,7 +28,7 @@ export function InternalLinksMesh({ currentOrigin, currentDestination }: Props) 
           <Globe className="h-6 w-6" />
         </div>
         <div>
-          <h3 className="text-lg font-bold text-slate-900">Explore Connected Travel Routes</h3>
+          <div className="text-base sm:text-lg font-bold text-slate-900">Explore Connected Travel Routes</div>
           <p className="text-xs text-slate-500">
             Logistical guides and plug compatibility for connected travel itineraries
           </p>
@@ -38,10 +38,10 @@ export function InternalLinksMesh({ currentOrigin, currentDestination }: Props) 
       <div className="mt-6 grid gap-6 sm:grid-cols-2">
         {/* Hub 1: More Destinations from Origin */}
         <div className="rounded-2xl bg-slate-50/70 p-5 border border-slate-100">
-          <h4 className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-700">
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-700">
             <CountryFlag code={currentOrigin.code} name={currentOrigin.name} emoji={currentOrigin.flagEmoji} size="sm" />
             <span>More destinations for {currentOrigin.nationality} travelers</span>
-          </h4>
+          </div>
           <ul className="mt-4 divide-y divide-slate-100 text-xs">
             {otherDestinations.map((dest) => (
               <li key={dest.slug} className="py-2.5 first:pt-0 last:pb-0">
@@ -64,10 +64,10 @@ export function InternalLinksMesh({ currentOrigin, currentDestination }: Props) 
 
         {/* Hub 2: Traveling to Destination from other Origins */}
         <div className="rounded-2xl bg-slate-50/70 p-5 border border-slate-100">
-          <h4 className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-700">
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-700">
             <CountryFlag code={currentDestination.code} name={currentDestination.name} emoji={currentDestination.flagEmoji} size="sm" />
             <span>Traveling to {currentDestination.name} from other countries</span>
-          </h4>
+          </div>
           <ul className="mt-4 divide-y divide-slate-100 text-xs">
             {otherOrigins.map((orig) => (
               <li key={orig.slug} className="py-2.5 first:pt-0 last:pb-0">

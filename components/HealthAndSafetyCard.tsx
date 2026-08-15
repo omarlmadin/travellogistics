@@ -30,7 +30,7 @@ export function HealthAndSafetyCard({ origin, destination }: Props) {
               <ShieldAlert className="h-6 w-6" />
             </div>
             <div>
-              <h2 className="text-lg font-bold text-slate-900">Health, Safety & Road Rules</h2>
+              <div className="text-base font-bold text-slate-900">Health, Safety & Road Rules</div>
               <p className="text-xs text-slate-500">
                 Essential emergency & drinking water advice for {destination.name}
               </p>

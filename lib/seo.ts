@@ -117,7 +117,7 @@ export function buildRouteSEO(origin: Country, dest: Country) {
     },
     headline: title,
     description: description,
-    image: dest.heroImage || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80',
+    image: dest.heroImage || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75&fm=webp',
     author: {
       '@type': 'Organization',
       name: 'TravelLogistics International Editorial Board',

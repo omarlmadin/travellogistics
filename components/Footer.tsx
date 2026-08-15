@@ -22,7 +22,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">Popular Routes</h4>
+            <div className="text-xs font-bold uppercase tracking-wider text-slate-900">Popular Routes</div>
             <ul className="mt-3 space-y-2 text-xs">
               <li>
                 <Link href="/from-united-states-to-japan" className="hover:text-blue-600 transition">
@@ -48,7 +48,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">Logistics Guides</h4>
+            <div className="text-xs font-bold uppercase tracking-wider text-slate-900">Logistics Guides</div>
             <ul className="mt-3 space-y-2 text-xs">
               <li>
                 <span className="text-slate-700 font-medium">World Plug & Socket Types (A to O)</span>
@@ -66,7 +66,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">Affiliate Disclosure</h4>
+            <div className="text-xs font-bold uppercase tracking-wider text-slate-900">Affiliate Disclosure</div>
             <p className="mt-3 text-[11px] leading-relaxed text-slate-500">
               TravelLogistics participates in travel affiliate programs (Amazon, Airalo, iVisa). When you make a purchase through our links, we may earn an affiliate commission at no extra cost to you.
             </p>

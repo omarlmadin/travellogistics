@@ -11,7 +11,7 @@ interface Props {
 export function DestinationShowcase({ origin, destination }: Props) {
   const landmarkImg =
     destination.landmarkImage ||
-    'https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1000&q=80';
+    'https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=800&q=75&fm=webp';
 
   const landmarkTitle = destination.landmarkTitle || `Iconic Landmarks of ${destination.name}`;
   const landmarkDesc =
@@ -28,6 +28,8 @@ export function DestinationShowcase({ origin, destination }: Props) {
             alt={`${landmarkTitle} - Essential travel logistics and landmark in ${destination.name}`}
             className="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-105"
             loading="lazy"
+            width={600}
+            height={450}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-slate-950/30" />
           
@@ -50,9 +52,9 @@ export function DestinationShowcase({ origin, destination }: Props) {
               <span>{destination.name} Practical Travel Infrastructure</span>
             </div>
 
-            <h3 className="mt-2.5 text-xl sm:text-2xl font-black tracking-tight text-slate-900">
+            <div className="mt-2.5 text-xl sm:text-2xl font-black tracking-tight text-slate-900">
               What to Expect on the Ground in {destination.name}
-            </h3>
+            </div>
 
             <p className="mt-3 text-xs sm:text-sm leading-relaxed text-slate-600">
               {landmarkDesc}

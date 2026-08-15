@@ -36,9 +36,9 @@ export function EsimAffiliateCard({ origin, destination }: Props) {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h2 className="text-lg sm:text-xl font-bold text-slate-900">
+              <div className="text-base sm:text-lg font-bold text-slate-900">
                 eSIM Mobile Internet in {destination.name}
-              </h2>
+              </div>
               <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-[10px] font-bold text-emerald-800">
                 <Sparkles className="h-3 w-3" />
                 Zero Roaming Fees
